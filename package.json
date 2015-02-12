@@ -1,0 +1,30 @@
+{
+  "name": "gitlab-report-robot",
+  "version": "0.1.0",
+  "description": "GitLab工作报告自动生成工具",
+  "author": "peigong@foxmail.com",
+  "keywords": ["gitlab"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peigong/gitlab-report-robot.git"
+  },
+  "main": "lib",
+  "homepage": "https://github.com/peigong/gitlab-report-robot",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "dependencies": {
+    "q": "~1.1.2",
+    "request": "~2.53.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "bin": {
+    "grr": "bin/grr.js"
+  },
+  "preferGlobal": true
+}
