@@ -6,6 +6,7 @@ var view = 'overview';
 model.getReport()
 .then(function(data){
     views[view](data);
+    views['weekly'](data);
 })
 .fail(function(err){
     console.log(err);
