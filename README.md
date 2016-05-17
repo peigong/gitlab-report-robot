@@ -4,12 +4,18 @@
 
 ## 使用方法 ##
 
-1. 根据下文，配置 `grr.json`
-2. 在命令行执行`node ./bin/grr.js`
+1. 克隆项目：`git clone https://github.com/peigong/gitlab-report-robot.git`
+2. 进入目录：`cd gitlab-report-robot`
+3. 根据下文，配置 `grr.json`
+4. `shift+右键菜单`，选择在此处打开命令窗口
+5. 建立NPM链接：`npm link`
+6. 生成报表：`node ./bin/grr.js`
+
+**备注：**再次生成报表时，只需执行第6步。
 
 ## 配置文件 `grr.json` ##
 
-需要在执行命令的目录下，定义配置文件 `grr.json`：
+在项目根目录下，定义配置文件 `grr.json`：
 
 	{
 	    "gitlab": "",
